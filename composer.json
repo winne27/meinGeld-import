@@ -1,0 +1,27 @@
+{
+    "name": "winne27/mein-geld",
+    "type": "library",
+    "description": "Creates csv file for import to 'Mein Geld'",
+    "keywords": ["sepa","Mein Geld","import","iban"],
+    "homepage": "https://github.com/winne27/php-export-for-wiso-meingeld",
+    "license": "LGPL-3.0",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Werner Schäffer",
+            "email": "werner@schaeffer.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/winne27/php-export-for-wiso-meingeld/issues"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "winne27\\mein-geld\\": "src/"
+        }
+    }
+}   
